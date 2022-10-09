@@ -11,7 +11,7 @@ $("#currentDay").text(currentDay.format("LLLL"));
 // when user look at the time block the colors show current, past and future time.
 function timeBlockHour() {
     $(".form-control").each(function () {
-        var time = parseInt($(this).attr("value"));
+        var time = parseInt($(this).attr("id"));
         console.log(time)
         hourTracker = parseInt(hourTracker);
         
