@@ -27,7 +27,7 @@ function timeBlockHour() {
     });
 }
 // when user click the button on the right it will save to local storage.
-
+$("#9").val(JSON.parse(localStorage.getItem(9)));
 $(".saveBtn").on("click", function(){
     var userInput = $(this).siblings(".form-control").val();
     console.log(userInput)
